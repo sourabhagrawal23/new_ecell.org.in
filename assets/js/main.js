@@ -576,7 +576,7 @@
                     }
                 }
             }), 0 < p(".subscribe-form, .my-newsletter").length && p(".subscribe-form, .my-newsletter").ajaxChimp({
-                url: "https://facebook.us8.list-manage.com/subscribe/post?u=85f515a08b87483d03fee7755&amp;id=66389dc38b"
+                url: ""
             }), 0 < p(".agency-team-slider").length && p(".agency-team-slider").myOwl({
                 items: 4,
                 autoplay: !1,
