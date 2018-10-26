@@ -472,6 +472,7 @@
 		<script src="assets/js/shuffle-letters.js"></script>
         <script src="assets/js/main.js"></script>		<!-- End js file -->
         <script>
+            
             var fromSubmit = ()=>{
                 var name = document.getElementById('xs_contact_name').value;
                 var email = document.getElementById('xs_contact_email').value;
@@ -482,7 +483,8 @@
                 method: 'POST',
                 headers: {
                 'Accept': 'application/json',
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'x-auth-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZm9ybS1kYXRhIiwic2VjcmV0Ijoic2t2am5zamt2YmRza2p2YmRza2p2YmprZHNidmtzYnZqa2RzdnNkY3NkY2pqIn0.VJUV65J3gj3mrwhFdIgKM9cnqTkSJpO436hjrb1vHQU'
                 },
                
                 body: JSON.stringify({name,email,subject,message})
@@ -492,7 +494,8 @@
                     document.getElementById('xs_contact_email').value = "";
                     document.getElementById('xs_contact_subject').value = "";
                     document.getElementById('x_contact_massage').value = "";
-                    console.log(m);
+                    
+                    
                     return;
                     }
                     else{
