@@ -491,10 +491,10 @@
             }), p(document).on("keydown", function (e) {
                 return !(e.ctrlKey && 85 == e.keyCode || e.ctrlKey && e.shiftKey && 73 == e.keyCode || e.ctrlKey && e.shiftKey && 75 == e.keyCode)
             }), 0 < p(".insta-feed").length && p(".insta-feed").instaFeed({
-                token: "2367672995.1677ed0.dea7a14501d04cd9982c7a0d23c716dd",
+                token: "4707554290.1677ed0.1430deca2345407ab3378fad73388e6b",
                 photos: 6
             }), 0 < p(".insta-feed2").length && p(".insta-feed2").instaFeed({
-                token: "2367672995.1677ed0.dea7a14501d04cd9982c7a0d23c716dd",
+                token: "4707554290.1677ed0.1430deca2345407ab3378fad73388e6b",
                 photos: 8
             }), 0 < p(".xs-modal-popup").length && p(".xs-modal-popup").magnificPopup({
                 type: "inline",
