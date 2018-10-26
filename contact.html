@@ -36,7 +36,13 @@
 		<link rel="stylesheet" href="assets/css/style.css">
 
 		<!--Theme Responsive css-->
-		<link rel="stylesheet" href="assets/css/responsive.css" />
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+        <style>
+            .map-frame {
+    width: 100%;
+    position: relative;
+}
+        </style>
 	</head>
 	<body>
 	<!--[if lt IE 10]>
@@ -171,7 +177,7 @@
 
 <!-- map -->
 <div class="xs-map">
-    <div id="xs-map"></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1870.2903311570133!2d85.82007420807902!3d20.358934996591287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19093bfb6a00c7%3A0xf401d30842acd11b!2sKIIT+Technology+Business+Incubator!5e0!3m2!1sen!2sin!4v1540523828838" class="map-frame" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div><!-- End map -->
 
 <!-- agency contact section -->
@@ -188,7 +194,7 @@
                             </div>
                         </li>
                         <li>
-                            <i class="icon icon-phone3"></i>
+                            <i class="icon icon-phone"></i>
                             <div class="list-content">
                                 <a href="tel:+91%2076839%2079698">+91 76839 79698</a>
                             </div>
@@ -209,8 +215,10 @@
                 </div><!-- .contact-info-wraper END -->
             </div>
             <div class="col-md-8">
+                    <div class="alert-box"></div>
                 <div class="from-wraper">
-                    <form action="#" id="xs-contact-form" class="contact-form" method="post">
+                    
+                    <form action="#" id="xs-contact-form" class="contact-form" method="post" onsubmit="fromSubmit()">
                         <div class="row">
                             <div class="col-lg-6">
                                 <input type="text" placeholder="Name *" name="name" id="xs_contact_name" class="form-control">
@@ -462,8 +470,54 @@
 		<script src="assets/js/extensions/revolution.extension.video.min.js"></script>
 		<script src="assets/js/skrollr.min.js"></script>
 		<script src="assets/js/shuffle-letters.js"></script>
-		<script src="assets/js/main.js"></script>		<!-- End js file -->
+        <script src="assets/js/main.js"></script>		<!-- End js file -->
+        <script>
+            var fromSubmit = ()=>{
+                var name = document.getElementById('xs_contact_name').value;
+                var email = document.getElementById('xs_contact_email').value;
+                var subject = document.getElementById('xs_contact_subject').value;
+                var message = document.getElementById('x_contact_massage').value;
+                console.log(`${name} ${email} ${subject} ${message}`)
+                fetch('https://ecell-contact-form.herokuapp.com/contact-form',{
+                method: 'POST',
+                headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+                },
+               
+                body: JSON.stringify({name,email,subject,message})
+                }).then((m)=>{
+                   if(m.status == 200){
+                    document.getElementById('xs_contact_name').value = "";
+                    document.getElementById('xs_contact_email').value = "";
+                    document.getElementById('xs_contact_subject').value = "";
+                    document.getElementById('x_contact_massage').value = "";
+                    console.log(m);
+                    return;
+                    }
+                    else{
+                        throw new Error();
+                    }
+                    
+                }).then(()=>{
+                    document.querySelector('.alert-box').innerHTML = `
+                    <div class="alert alert-success">
+                            <strong>Success! </strong> We have suceessfully recieved your message. We will get back to you very soon.
+                        </div>
+                    `
+                })
+                .catch((e)=>{
+                    console.log(e);
+                    document.querySelector('.alert-box').innerHTML = `
+                    <div class="alert alert-danger">
+                            <strong>Error! </strong> Opps! Something went wrong. Please try again later or send us an email on pcr@ecell.org.in
+                        </div>
+                    `
+                })
+            }
+            
+        </script>
 	</body>
 
-<!-- Mirrored from html.xpeedstudio.com/agmycoo/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Oct 2018 14:25:39 GMT -->
+
 </html>
