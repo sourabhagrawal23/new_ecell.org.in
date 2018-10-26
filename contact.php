@@ -478,7 +478,7 @@
                 var subject = document.getElementById('xs_contact_subject').value;
                 var message = document.getElementById('x_contact_massage').value;
                 console.log(`${name} ${email} ${subject} ${message}`)
-                fetch('http://ecell-contact-form.herokuapp.com/contact-form',{
+                fetch('https://ecell-contact-form.herokuapp.com/contact-form',{
                 method: 'POST',
                 headers: {
                 'Accept': 'application/json',
