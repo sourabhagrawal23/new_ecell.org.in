@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
   font-family: 'iconfont';
   src:  url('../fonts/icomoon9c00.eot?2wqjzd');
   src:  url('../fonts/icomoon9c00.eot?2wqjzd#iefix') format('embedded-opentype'),
@@ -514,16 +514,16 @@
   content: "\e8a9";
 }
 .icon-working_process_icons_1:before {
-  content: "\e900";
+  content: url(../images/imagine-concept.png);
 }
 .icon-working_process_icons_2:before {
-  content: "\e901";
+  content: url(../images/innovate-concept.png);
 }
 .icon-working_process_icons_3:before {
-  content: "\e902";
+  content: url(../images/implement-concept.png);
 }
 .icon-working_process_icons_4:before {
-  content: "\e903";
+  content: url(../images/logoicon.png);
 }
 .icon-vplay:before {
   content: "\e904";
