@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<title>Enterpreneurship Cell | KIIT University</title>
-		<meta name="description" content="">
+		<meta name="description" content="We believe that emerging economies like India need the drive of the new and young breed of worthy entrepreneurs who target their efforts on innovative ways to technologically address the genuine needs of millions of people. Motivated by this vision, Kiit E-Cell targets on fostering entrepreneurship culture amongst the students and establishing necessary support systems for aspiring entrepreneurs with the East India's largest inbuilt technology business incubator KIIT TBI. This is achieved through a number of activities such as Discussion forums, Speaker sessions, B-plan competitions, summer internships and webinars by eminent international personalities which provide the tools to create an implementable plan from an idea. We deeply encourage the self development of our members through the groundbreaking concept of E-School.">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CRoboto:400,500,700,900%7CPlayfair+Display:400,700,700i,900,900i%7CWork+Sans:400,500,600,700" rel="stylesheet">
