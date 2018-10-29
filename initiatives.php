@@ -228,7 +228,7 @@
             </div>
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
-        </div><br><br><br><br>
+        </div>
 </section><!-- end parallax service -->
 
 <!-- language switcher strart -->
