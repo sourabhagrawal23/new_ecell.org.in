@@ -323,6 +323,11 @@
         <script>
             
             var fromSubmit = ()=>{
+                document.querySelector('.alert-box').innerHTML = `
+                    <div class="alert alert-warning">
+                            <strong>Please Wait! </strong> Your message is being sent.
+                        </div>
+                    `
                 var name = document.getElementById('xs_contact_name').value;
                 var email = document.getElementById('xs_contact_email').value;
                 var subject = document.getElementById('xs_contact_subject').value;
