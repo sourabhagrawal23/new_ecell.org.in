@@ -57,7 +57,7 @@
 			<div class="footer-bottom-area">
 				<div class="container">
 					<div class="copyright-section text-center">
-						<p>Â© Copyright 2018. All Rights Reserved.<a href="https://ecell.org.in">KIIT E-Cell</a></p>
+						<p>© Copyright 2018. All Rights Reserved.<a href="https://ecell.org.in">KIIT E-Cell</a></p>
 					</div><!-- .copyright-section END -->
 				</div>
 			</div><!-- .footer-bottom-area END -->
