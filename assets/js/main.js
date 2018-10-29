@@ -1158,3 +1158,10 @@
         })
     })
 }(jQuery);
+
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".header-transparent");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});

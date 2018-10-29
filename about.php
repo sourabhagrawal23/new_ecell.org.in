@@ -15,7 +15,7 @@
 		<!-- signatra-font -->
 		<link rel="stylesheet" href="assets/css/signatra-font.css">
 
-		<link rel="icon" type="image/png" href="favicon.html">
+		<link rel="icon" type="image/png" href="assets/images/favicon.ico">
 		<!-- Place favicon.ico in the root directory -->
 		<link rel="apple-touch-icon" href="apple-touch-icon.html">
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -37,6 +37,14 @@
 
 		<!--Theme Responsive css-->
 		<link rel="stylesheet" href="assets/css/responsive.css" />
+
+        <style type="text/css">
+            
+            .nav-menu li.active>a {
+                color: #1B4F72!important;
+                }
+        </style>
+
 	</head>
 	<body>
 	<!--[if lt IE 10]>
@@ -54,101 +62,9 @@
 </div> -->
 	<!-- END prelaoder -->
 <!-- header section -->
-<header class="xs-header header-transparent header-style3">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-2">
-                <div class="xs-logo-wraper">
-                    <a href="index.php" class="xs-logo">
-                        <img src="assets/images/logotest (1).png" height="171" width="136" alt="Ecell Logo">
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-10 col-md-10">
-                <nav class="xs-menus text-right">
-                    <div class="nav-header">
-                        <a class="nav-brand" href="index.html"></a>
-                        <div class="nav-toggle"></div>
-                    </div>
-                    <div class="nav-menus-wrapper">
-                        <ul class="nav-menu">
-                            <li><a href="index.html">HOME</a>
- 
-                            </li>
-                            <li><a href="#">NOTICEBOARD</a>
- 
-                            </li>
-                            <li><a href="#">REGISTER</a>
-                                <ul class="nav-dropdown xs-icon-menu">
-                                    <li class="single-menu-item"><a href="cases.html"><i class="icon icon-user"></i>
-                                            As an Individual</a></li>
-                                    <li class="single-menu-item"><a href="case-details.html"><i class="icon icon-globe"></i>
-                                            As a Startup</a></li>
-                                
-                                </ul>
-                            </li>
-                            <li><a href="startups.html">STARTUP</a>
- 
-                            </li>
-                            <li><a href="initiatives.html">INITIATIVES</a>
- 
-                            </li>
-                            <li>
-                                <a href="#">ABOUT US</a>
-                                <ul class="nav-dropdown xs-icon-menu">
-                                    <li class="single-menu-item">
-                                        <a href="#whoweare"><i class="icon icon-customer-service"></i> Who We Are?</a>
-                                    </li>
-                                    <li class="single-menu-item">
-                                        <a href="#mentors"><i class="icon icon-customer-service"></i>
-                                            Our Mentors</a>
-                                    </li>
-                                    <li class="single-menu-item">
-                                        <a href="team.html"><i class="icon icon-customer-service"></i>
-                                            The Ecell Team</a>
-                                    </li>
-                                    <li class="single-menu-item">
-                                        <a href="gallery.html"><i class="icon icon-customer-service"></i>
-                                            Gallery</a>
-                                    </li>
-                                    <li class="single-menu-item">
-                                        <a href="partners.html"><i class="icon icon-customer-service"></i>
-                                            Partners</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="#">BLOG</a>
-                                <ul class="nav-dropdown xs-icon-menu">
-                                    <li class="single-menu-item"><a href="news-list.html"><i class="icon icon-presentation2"></i>
-                                            News List</a></li>
-                                    <li class="single-menu-item"><a href="blog-grid.html"><i class="icon icon-presentation2"></i>
-                                            Blog Grid</a></li>
-                                    <li class="single-menu-item"><a href="blog-grid-sidebar.html"><i class="icon icon-presentation"></i>
-                                            Blog Grid Sidebar</a></li>
-                                    <li class="single-menu-item"><a href="blog-single.html"><i class="icon icon-presentation"></i>
-                                            Blog Single</a></li>
-                                    <li class="single-menu-item"><a href="blog-single-sidebar.html"><i class="icon icon-presentation"></i>
-                                            Blog Single Sidebar</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">CONTACT US</a>
- 
-                            </li>
-                            <li>
-                                <a href="#" class="navSidebar-button"><i class="icon icon-burger-menu"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-            <!-- <div class="col-lg-3 col-md-6">
-                <div class="header-btn">
-                    <a href="tel:+1%20(254)%20548-8563" class="btn">Tel: +1 (254) 548-8563</a>
-                </div>
-            </div> -->
-        </div><!-- .row END -->
-    </div><!-- .container END -->
-</header><!-- End header section -->
+
+<?php  include "includes/header.php" ?>
+
 <!-- welcome section -->
 <!--breadcumb start here-->
 <div class="xs-inner-banner" style="background-image:url('assets/images/banner/kiit.jpg')">
@@ -562,12 +478,15 @@
                 </a>
             </div>
             <div class="sidebar-textwidget">
-                <div class="sidebar-logo-wraper">
+                <div class="sidebar-logo-wraper" style="text-align:center;">
                     <a href="index.html">
-                        <img src="assets/images/color-logo.png" alt="sidebar logo">
+                        <img src="assets/images/logosmall.png" height="200" width="200" alt="ecell logo">
                     </a>
                 </div>
-                <p>Far far away, behind the word moun tains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of  </p>
+                <p>
+                    KIIT E-Cell has been in its continuous pursuit of fostering entrepreneurship in and around the campus bringing students, their ideas and spirit together. The team has rigorously worked towards connecting the students to mentors, funds and providing a platform to bring their ideas into existence. It has been a privilege to work with a talented pool of youngsters dedicated towards the cause. Striving to see the startups blooming in the coming years and students excelling in their ventures.
+                    <span style="float: right;font-weight: bold;">-Achintya Tushar Jha</span>
+                </p>
                 <ul class="sideabr-list-widget">
                     <li>
                         <div class="media">
@@ -575,8 +494,8 @@
                                 <img src="assets/images/location.png" alt="">
                             </div>
                             <div class="media-body">
-                                <p>759 Pinewood Avenue</p>
-                                <span>Marquette, Michigan</span>
+                                <p>7B,Second Floor, TBI Biotech Campus, KIIT University</p>
+                                <span>Bhubaneshwar, Odisha</span>
                             </div>
                         </div><!-- address 1 -->
                     </li>
@@ -586,8 +505,8 @@
                                 <img src="assets/images/mail.png" alt="">
                             </div>
                             <div class="media-body">
-                                <a href="mailto:info@domain.com">info@domain.com</a>
-                                <span>Online Support</span>
+                                <a href="mailto:pcr@ecell.org.in">pcr@ecell.org.in</a>
+                                <a href="mailto:ceo@ecell.org.in">ceo@ecell.org.in</a>
                             </div>
                         </div><!-- address 1 -->
                     </li>
@@ -597,8 +516,7 @@
                                 <img src="assets/images/phone.png" alt="">
                             </div>
                             <div class="media-body">
-                                <a href="tel:906-624-2565">906-624-2565</a>
-                                <span>Mon-Fri 8am-5pm</span>
+                                <a href="tel:768-397-9698">768-397-9698</a>
                             </div>
                         </div><!-- address 1 -->
                     </li>
@@ -614,86 +532,18 @@
                     </form>
                 </div>
                 <ul class="social-list version-2">
-                    <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="#" class="vimeo"><i class="fa fa-vimeo"></i></a></li>
+                    <li><a href="https://www.facebook.com/kiitecell" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/kiit_ecell" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/13346906/" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/ecell_kiit/" class="instagram"><i class="fa fa-instagram"></i></a></li>
                 </ul><!-- .social-list -->
-                <div class="text-center">
-                    <a href="https://themeforest.net/user/xpeedstudio/portfolio" class="btn btn-primary">Purchase Now</a>
-                </div>
             </div>
         </div>
     </div>
 </div>    <!-- END sidebar widget item -->    <!-- END offset cart strart -->
 
-		<!-- footer section start -->
-		<footer class="xs-footer-section">
-			<div class="footer-top-area">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-lg-3">
-							<div class="footer-widget">
-								<div class="footer-logo-wraper">
-									<a href="index.html" class="footer-logo">
-										<img src="assets/images/logotest (1).png" height="171" width="136" alt="Ecell Logo">
-									</a>
-								</div>
-								<p><a href="https://www.google.com/maps/place/London,+UK/@51.528308,-0.3817812,10z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5073509!4d-0.1277583" target="_blank">7B,Second Floor, TBI Biotech Campus,<br>KIIT University, Bhubaneshwar.</a> </p>
-								<p>Tel.:<a href="tel:+1%20998%20150%30%2020">+91-9861658537</a> <br> Mail : <a href="mailto:pcr@ecell.org.in">pcr@ecell.org.in</a></p>
-							</div><!-- .footer-widget END -->
-						</div>
-						<div class="col-md-6 col-lg-2">
-							<div class="footer-widget">
-								<h4 class="widget-title">About</h4>
-								<ul class="xs-list">
-									<li><a href="about.html">About us</a></li>
-									<li><a href="contact.html">Contact Us</a></li>
-									<li><a href="startups.html">Startups</a></li>
-									<li><a href="initiatives.html">Initiatives</a></li>
-									<li><a href="team.html">Team</a></li>
-								</ul><!-- .xs-list END -->
-							</div><!-- .footer-widget END -->
-						</div>
-						<div class="col-md-6 col-lg-4">
-							<div class="footer-widget">
-								<h4 class="widget-title">Instagram</h4>
-								<div class="insta-feed-wraper">
-									<ul class="insta-feed"></ul>
-								</div><!-- .insta-feed-wraper END -->
-							</div><!-- .footer-widget END -->
-						</div>
-						<div class="col-md-6 col-lg-3">
-							<div class="footer-widget">
-								<h4 class="widget-title">NewsLetter</h4>
-								<p style="color:#fcfcfc; font-size:0.75rem">Keep up on our always evolving startup culture. Enter your e-mail and subscribe to our newsletter.</p>
-								<form action="mailto:pcr@ecell.org.in" class="newsletter-form subscribe-form" method="POST">
-									<input type="email" name="email" id="sub-input-one" placeholder="Your Email" class="form-control">
-									<label for="sub-input-one"></label>
-									<button type="submit" class="send-button"><i class="icon icon-paper-plane"></i></button>
-								</form><!-- .newsletter-form END -->
-								<ul class="social-list">
-									<li><a href="https://www.facebook.com/kiitecell"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="https://twitter.com/kiit_ecell"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="https://www.linkedin.com/company/13346906/"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="https://www.instagram.com/ecell_kiit/"><i class="fa fa-instagram"></i></a></li>
-									<!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
-								</ul><!-- .social-list END -->
-							</div><!-- .footer-widget END -->
-						</div>
-					</div><!-- .row END -->
-				</div><!-- .container END -->
-			</div><!-- .footer-top-area END -->
-			<div class="footer-bottom-area">
-				<div class="container">
-					<div class="copyright-section text-center">
-						<p>Â© Copyright 2018. All Rights Reserved.<a href="https://ecell.org.in">KIIT E-Cell</a></p>
-					</div><!-- .copyright-section END -->
-				</div>
-			</div><!-- .footer-bottom-area END -->
-		</footer>
-		<!-- footer section end -->	
+		<?php  include "includes/footer.php" ?>
+
 		<!-- js file start -->
 		<script src="assets/js/jquery-3.2.1.min.js"></script>
 		<script src="assets/js/plugins.js"></script>
