@@ -340,7 +340,11 @@
                             <strong>Please Wait! </strong> Your message is being sent.
                         </div>
                     `
+<<<<<<< HEAD
+                
+=======
                     document.getElementById("xs_contact_submit").innerHTML = '<div class="loader"></div>'
+>>>>>>> e7f39dc1379a82bd843599386b723828ba1f4d89
                 var name = document.getElementById('xs_contact_name').value;
                 var email = document.getElementById('xs_contact_email').value;
                 var subject = document.getElementById('xs_contact_subject').value;
