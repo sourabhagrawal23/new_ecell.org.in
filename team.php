@@ -180,7 +180,7 @@
                 </div><!-- .single-cases-card END -->
             </div><!-- .grid-item END -->
         </div><!-- .cases-grid END -->
-    </div><!-- manually added section ends!-->
+    </div>manually added section ends!
 
     <div class ="show_pcr_main">
         <div class="cases-grid" id="show_pcr">
@@ -392,65 +392,65 @@
         <script src="assets/js/main.js"></script>       <!-- End js file -->
     </body>
 
-<!-- Mirrored from html.xpeedstudio.com/agmycoo/portfolio.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Oct 2018 14:25:25 GMT -->
+
 
 <script>
 
 //pcr
-   $.ajax({
-             url:"members.csv",
-             dataType:"text",
-             success:function(data)
-             {
-                 var employee_data = data.split(/\r?\n|\r/);
-                 var headers=employee_data[0].split(",");
+//    $.ajax({
+//              url:"members.csv",
+//              dataType:"text",
+//              success:function(data)
+//              {
+//                  var employee_data = data.split(/\r?\n|\r/);
+//                  var headers=employee_data[0].split(",");
 
-                for(var i=1;i<employee_data.length;i++){
-                if(employee_data[i].split(",")[3] == "PCR"){
+//                 for(var i=1;i<employee_data.length;i++){
+//                 if(employee_data[i].split(",")[3] == "PCR"){
 
-                  if(employee_data[i].split(",")[1]=="Ayush Lal"){
-                    $('#show_pcr').append(' <div class="grid-item item1"><div class="single-cases-card"><div class="card-image"><img src="https://s3.ap-south-1.amazonaws.com/ecell-team/DSC_0536-01+-+Public+_+Corporate+Relations.jpeg" alt=""></div><div class="cases-content"><h4 class="xs-title"><a>'+employee_data[i].split(",")[1]+'</a></h4><span class="tag">'+employee_data[i].split(",")[4]+' ('+employee_data[i].split(",")[3]+') </span></div></div></div>');
-                  } 
+//                   if(employee_data[i].split(",")[1]=="Ayush Lal"){
+//                     $('#show_pcr').append(' <div class="grid-item item1"><div class="single-cases-card"><div class="card-image"><img src="https://s3.ap-south-1.amazonaws.com/ecell-team/DSC_0536-01+-+Public+_+Corporate+Relations.jpeg" alt=""></div><div class="cases-content"><h4 class="xs-title"><a>'+employee_data[i].split(",")[1]+'</a></h4><span class="tag">'+employee_data[i].split(",")[4]+' ('+employee_data[i].split(",")[3]+') </span></div></div></div>');
+//                   } 
                   
-                  else if(employee_data[i].split(",")[1]=="Niket Raj Dwivedi "){
-                    $('#show_pcr').append(' <div class="grid-item item1"><div class="single-cases-card"><div class="card-image"><img src="https://s3.ap-south-1.amazonaws.com/ecell-team/mypicccc+-+Niket+Raj+Dwivedi.jpg" alt=""></div><div class="cases-content"><h4 class="xs-title"><a>'+employee_data[i].split(",")[1]+'</a></h4><span class="tag">'+employee_data[i].split(",")[4]+' ('+employee_data[i].split(",")[3]+') </span></div></div></div>');
-                  }
-                  else   
-                  {      
-                  $('#show_pcr').append(' <div class="grid-item item1"><div class="single-cases-card"><div class="card-image"><img src="'+employee_data[i].split(",")[8]+'" alt=""></div><div class="cases-content"><h4 class="xs-title"><a>'+employee_data[i].split(",")[1]+'</a></h4><span class="tag">'+employee_data[i].split(",")[4]+' ('+employee_data[i].split(",")[3]+') </span></div></div></div>');
-                    }
+//                   else if(employee_data[i].split(",")[1]=="Niket Raj Dwivedi "){
+//                     $('#show_pcr').append(' <div class="grid-item item1"><div class="single-cases-card"><div class="card-image"><img src="https://s3.ap-south-1.amazonaws.com/ecell-team/mypicccc+-+Niket+Raj+Dwivedi.jpg" alt=""></div><div class="cases-content"><h4 class="xs-title"><a>'+employee_data[i].split(",")[1]+'</a></h4><span class="tag">'+employee_data[i].split(",")[4]+' ('+employee_data[i].split(",")[3]+') </span></div></div></div>');
+//                   }
+//                   else   
+//                   {      
+//                   $('#show_pcr').append(' <div class="grid-item item1"><div class="single-cases-card"><div class="card-image"><img src="'+employee_data[i].split(",")[8]+'" alt=""></div><div class="cases-content"><h4 class="xs-title"><a>'+employee_data[i].split(",")[1]+'</a></h4><span class="tag">'+employee_data[i].split(",")[4]+' ('+employee_data[i].split(",")[3]+') </span></div></div></div>');
+//                     }
 
-                  }
-                  }
+//                   }
+//                   }
 
-//rnd
+// //rnd
 
-                  for(var i=1;i<employee_data.length;i++){
-                        if(employee_data[i].split(",")[3] == "R&D"){
-                                 $('#show_rnd').append(' <div class="grid-item item1"><div class="single-cases-card"><div class="card-image"><img src="'+employee_data[i].split(",")[8]+'" alt=""></div><div class="cases-content"><h4 class="xs-title"><a>'+employee_data[i].split(",")[1]+'</a></h4><span class="tag">'+employee_data[i].split(",")[4]+' ('+employee_data[i].split(",")[3]+') </span></div></div></div>');
+//                   for(var i=1;i<employee_data.length;i++){
+//                         if(employee_data[i].split(",")[3] == "R&D"){
+//                                  $('#show_rnd').append(' <div class="grid-item item1"><div class="single-cases-card"><div class="card-image"><img src="'+employee_data[i].split(",")[8]+'" alt=""></div><div class="cases-content"><h4 class="xs-title"><a>'+employee_data[i].split(",")[1]+'</a></h4><span class="tag">'+employee_data[i].split(",")[4]+' ('+employee_data[i].split(",")[3]+') </span></div></div></div>');
 
-                         }
-                    }   
-
-
+//                          }
+//                     }   
 
 
-                     for(var i=1;i<employee_data.length;i++){
-                        if(employee_data[i].split(",")[3] == "TECH"){
-                                 $('#show_tech').append(' <div class="grid-item item1"><div class="single-cases-card"><div class="card-image"><img src="'+employee_data[i].split(",")[8]+'" alt=""></div><div class="cases-content"><h4 class="xs-title"><a>'+employee_data[i].split(",")[1]+'</a></h4><span class="tag">'+employee_data[i].split(",")[4]+' ('+employee_data[i].split(",")[3]+') </span></div></div></div>');
-                         }
-                    }   
 
 
-                    for(var i=1;i<employee_data.length;i++){
-                        if(employee_data[i].split(",")[3] == "DESIGN"){
-                                 $('#show_design').append(' <div class="grid-item item1"><div class="single-cases-card"><div class="card-image"><img src="'+employee_data[i].split(",")[8]+'" alt=""></div><div class="cases-content"><h4 class="xs-title"><a>'+employee_data[i].split(",")[1]+'</a></h4><span class="tag">'+employee_data[i].split(",")[4]+' ('+employee_data[i].split(",")[3]+') </span></div></div></div>');
-                         }
-                    }   
+//                      for(var i=1;i<employee_data.length;i++){
+//                         if(employee_data[i].split(",")[3] == "TECH"){
+//                                  $('#show_tech').append(' <div class="grid-item item1"><div class="single-cases-card"><div class="card-image"><img src="'+employee_data[i].split(",")[8]+'" alt=""></div><div class="cases-content"><h4 class="xs-title"><a>'+employee_data[i].split(",")[1]+'</a></h4><span class="tag">'+employee_data[i].split(",")[4]+' ('+employee_data[i].split(",")[3]+') </span></div></div></div>');
+//                          }
+//                     }   
+
+
+//                     for(var i=1;i<employee_data.length;i++){
+//                         if(employee_data[i].split(",")[3] == "DESIGN"){
+//                                  $('#show_design').append(' <div class="grid-item item1"><div class="single-cases-card"><div class="card-image"><img src="'+employee_data[i].split(",")[8]+'" alt=""></div><div class="cases-content"><h4 class="xs-title"><a>'+employee_data[i].split(",")[1]+'</a></h4><span class="tag">'+employee_data[i].split(",")[4]+' ('+employee_data[i].split(",")[3]+') </span></div></div></div>');
+//                          }
+//                     }   
 
             
-             }
-        });
+//              }
+//         });
 
     
 
