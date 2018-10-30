@@ -140,7 +140,7 @@
                         </div>
                         <input type="text" placeholder="Subject *" name="subject" id="xs_contact_subject" class="form-control">
                         <textarea name="massage" id="x_contact_massage" placeholder="Your Message... *" class="form-control" cols="30" rows="10"></textarea>
-                        <input type="submit" name="submit" id="xs_contact_submit" class="submit-btn" value="Submit">
+                        <button type="submit" name="submit" id="xs_contact_submit" class="submit-btn" >submit</button>
                     </form>
                 </div>
             </div>
@@ -328,6 +328,7 @@
                             <strong>Please Wait! </strong> Your message is being sent.
                         </div>
                     `
+                
                 var name = document.getElementById('xs_contact_name').value;
                 var email = document.getElementById('xs_contact_email').value;
                 var subject = document.getElementById('xs_contact_subject').value;
