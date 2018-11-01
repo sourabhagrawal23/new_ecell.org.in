@@ -78,7 +78,7 @@
                     </div>
                     <div class="nav-menus-wrapper">
                         <ul class="nav-menu">
-                            <li><a href="index">HOME</a>
+                            <li><a href="/">HOME</a>
  
                             </li>
                             <li><a href="#">NOTICEBOARD</a>
@@ -86,9 +86,9 @@
                             </li>
                             <li><a href="#">REGISTER</a>
                                 <ul class="nav-dropdown xs-icon-menu">
-                                    <li class="single-menu-item"><a href="cases.html"><i class="fa fa-user-o"></i>
-                                            As an Individual</a></li>
-                                    <li class="single-menu-item"><a href="case-details.html"><i class="fa fa-building"></i>
+                                    <!-- <li class="single-menu-item"><a href="cases.html"><i class="fa fa-user-o"></i>
+                                            As an Individual</a></li> -->
+                                    <li class="single-menu-item"><a href="startup-register"><i class="fa fa-building"></i>
                                             As a Startup</a></li>
                                 
                                 </ul>

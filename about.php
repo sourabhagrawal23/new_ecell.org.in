@@ -2,7 +2,7 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 	
-<!-- Mirrored from html.xpeedstudio.com/agmycoo/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Oct 2018 14:24:38 GMT -->
+
 <head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -577,5 +577,5 @@
 		<script src="assets/js/main.js"></script>		<!-- End js file -->
 	</body>
 
-<!-- Mirrored from html.xpeedstudio.com/agmycoo/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Oct 2018 14:24:52 GMT -->
+
 </html>

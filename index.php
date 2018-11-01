@@ -655,5 +655,5 @@ include "includes/header.php";
 		<!-- End js file -->
 	</body>
 
-<!-- Mirrored from html.xpeedstudio.com/agmycoo/index-v3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Oct 2018 14:21:47 GMT -->
+
 </html>

@@ -2,7 +2,7 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
     
-<!-- Mirrored from html.xpeedstudio.com/agmycoo/portfolio.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Oct 2018 14:25:25 GMT -->
+
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
