@@ -68,7 +68,7 @@ include "includes/header.php";
             <div class="row">
                 <div class="col-md-6 align-self-center">
                     <div class="agency-banner-content banner-style3">
-                        <h1 style="font-size: 80px" class="banner-title">KIIT ECELL</h1><h3 style="color: white;">For the
+                        <h1 style="font-size: 80px" class="banner-title">KIIT E-CELL</h1><h3 style="color: white;">For the
                             <span class="typer" id="main" data-words="risk-takers,hustlers,tycoons" data-colors="white" data-delay="100" data-deleteDelay="1000"></span>
                             <span class="cursor" data-owner="main"></span>
                           </h3>
