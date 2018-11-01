@@ -148,7 +148,7 @@ include "includes/header.php";
                         <div class="single-info-block text-center wow fadeInUp" data-wow-delay=".8s">
                             <h3 class="small">Community Learning</h3>
                             <!-- Should be edited as the community learning program is soon going to grow and get in touch with students outside ECELL -->
-                            <p>The initiative was taken by us to help our members to learn and master the skills they wish to develope. The Community Learning sessions are conducted by our own members on weekly basis. Presently, there are weekly sessions on Data analytics, Python, Content marketing, app and web development. The interested people take up these interactive sessions and grow via experimenting with everything they learn.</p>
+                            <p>The initiative was taken by us to help our members to learn and master the skills they wish to develop. The Community Learning sessions are conducted by our own members on weekly basis. Presently, there are weekly sessions on Data analytics, Python, Content marketing, app and web development. The interested people take up these interactive sessions and grow via experimenting with everything they learn.</p>
                             <a href="#" class="simple-btn">Learn More <i class="icon icon-arrow-right"></i></a>
                             <div class="leaf leaf-3">
                                 <img src="assets/images/single-leaf-3.png" alt="">
