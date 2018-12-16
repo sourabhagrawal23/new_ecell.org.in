@@ -1,8 +1,7 @@
 <!-- get_header('Page Name','Title')-->
 <!doctype html>
 <html class="no-js" lang="zxx">
-	
-<!-- Mirrored from html.xpeedstudio.com/agmycoo/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Oct 2018 14:25:39 GMT -->
+
 <head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -46,6 +45,19 @@
 .nav-menu li.active>a {
                 color: #1B4F72!important;
                 }
+                .loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
         </style>
 	</head>
 	<body>
@@ -140,7 +152,7 @@
                         </div>
                         <input type="text" placeholder="Subject *" name="subject" id="xs_contact_subject" class="form-control">
                         <textarea name="massage" id="x_contact_massage" placeholder="Your Message... *" class="form-control" cols="30" rows="10"></textarea>
-                        <input type="submit" name="submit" id="xs_contact_submit" class="submit-btn" value="Submit">
+                        <button type="submit" name="submit" id="xs_contact_submit" class="submit-btn" >submit</button>
                     </form>
                 </div>
             </div>
@@ -323,6 +335,12 @@
         <script>
             
             var fromSubmit = ()=>{
+                document.querySelector('.alert-box').innerHTML = `
+                    <div class="alert alert-warning">
+                            <strong>Please Wait! </strong> Your message is being sent.
+                        </div>
+                    `
+                    document.getElementById("xs_contact_submit").innerHTML = '<div class="loader"></div>'
                 var name = document.getElementById('xs_contact_name').value;
                 var email = document.getElementById('xs_contact_email').value;
                 var subject = document.getElementById('xs_contact_subject').value;
@@ -357,6 +375,7 @@
                             <strong>Success! </strong> We have suceessfully recieved your message. We will get back to you very soon.
                         </div>
                     `
+                    document.getElementById("xs_contact_submit").innerHTML = 'submit'
                 })
                 .catch((e)=>{
                     console.log(e);
@@ -365,6 +384,7 @@
                             <strong>Error! </strong> Opps! Something went wrong. Please try again later or send us an email on pcr@ecell.org.in
                         </div>
                     `
+                    document.getElementById("xs_contact_submit").innerHTML = 'submit'
                 })
             }
             

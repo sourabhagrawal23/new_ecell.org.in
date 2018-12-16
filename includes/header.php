@@ -36,6 +36,11 @@
 
 		<!--Theme Responsive css-->
 		<!--<link rel="stylesheet" href="../assets/css/responsive.css">-->
+        <style>
+            html{
+                scroll-behavior: smooth;
+            }
+        </style>
 	</head>
 	<body>
 	<!--[if lt IE 10]>
@@ -56,11 +61,11 @@
 	<!-- END prelaoder -->
 <!-- header section -->
 <header class="xs-header header-transparent header-style3 nav-sticky">
-    <div class=".nav-sticky.sticky-header container">
+    <div class=".nav-sticky.sticky-header container-fluid">
         <div class="row">
             <div class="col-lg-2">
                 <div class="xs-logo-wraper">
-                    <a href="index.html" class="xs-logo">
+                    <a href="index" class="xs-logo">
                         <img src="assets/images/logotest (1).png" height="171" width="136" alt="Ecell Logo">
                     </a>
                 </div>
@@ -81,9 +86,9 @@
                             </li>
                             <li><a href="#">REGISTER</a>
                                 <ul class="nav-dropdown xs-icon-menu">
-                                    <li class="single-menu-item"><a href="cases.html"><i class="icon icon-user"></i>
-                                            As an Individual</a></li>
-                                    <li class="single-menu-item"><a href="case-details.html"><i class="icon icon-globe"></i>
+                                    <!-- <li class="single-menu-item"><a href="cases.html"><i class="fa fa-user-o"></i>
+                                            As an Individual</a></li> -->
+                                    <li class="single-menu-item"><a href="startup-register"><i class="fa fa-building"></i>
                                             As a Startup</a></li>
                                 
                                 </ul>
@@ -95,30 +100,30 @@
  
                             </li>
                             <li>
-                                <a href="#">ABOUT US</a>
+                                <a href="about">ABOUT US</a>
                                 <ul class="nav-dropdown xs-icon-menu">
                                     <li class="single-menu-item">
-                                        <a href="about"><i class="icon icon-customer-service"></i> Who We Are?</a>
+                                        <a href="about"><i class="fa fa-comment"></i> Who We Are?</a>
                                     </li>
                                     <li class="single-menu-item">
-                                        <a href="about#mentors"><i class="icon icon-customer-service"></i>
+                                        <a href="about#mentors"><i class="fa fa-graduation-cap"></i>
                                             Our Mentors</a>
                                     </li>
                                     <li class="single-menu-item">
-                                        <a href="parallax-service.html"><i class="icon icon-customer-service"></i>
+                                        <a href="#"><i class="fa fa-users"></i>
                                             The Ecell Team</a>
                                     </li>
                                     <li class="single-menu-item">
-                                        <a href="parallax-service.html"><i class="icon icon-customer-service"></i>
+                                        <a href="#"><i class="fa fa-picture-o"></i>
                                             Gallery</a>
                                     </li>
                                     <li class="single-menu-item">
-                                        <a href="about#associates"><i class="icon icon-customer-service"></i>
+                                        <a href="about#associates"><i class="fa fa-handshake-o"></i>
                                             Partners</a>
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="#">BLOG</a>
+                            <!-- <li><a href="#">BLOG</a>
                                 <ul class="nav-dropdown xs-icon-menu">
                                     <li class="single-menu-item"><a href="news-list.html"><i class="icon icon-presentation2"></i>
                                             News List</a></li>
@@ -131,7 +136,7 @@
                                     <li class="single-menu-item"><a href="blog-single-sidebar.html"><i class="icon icon-presentation"></i>
                                             Blog Single Sidebar</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                             <li><a href="contact">CONTACT US</a>
  
                             </li>

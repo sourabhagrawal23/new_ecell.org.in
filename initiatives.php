@@ -2,7 +2,7 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 	
-<!-- Mirrored from html.xpeedstudio.com/agmycoo/parallax-service.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Oct 2018 14:24:59 GMT -->
+
 <head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -105,9 +105,6 @@
                                         motivating lectures, business quizzes and personal interactions the last day is engaged for an Industrial visit to
                                         organizations like OPTCL, Parle-G to name a few. Such camps were conducted four times every year since it’s inception.</p>
                                     </div><br>
-                                    <div class="btn-wraper">
-                                        <a href="pricing.html" class="simple-btn">READ MORE <i class="icon icon-arrow-right"></i></a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -131,9 +128,6 @@
                                         and the proper resources. This would act as a platform to help generate successful startups from the university in the
                                         future.</p>
                                     </div><br>
-                                    <div class="btn-wraper">
-                                        <a href="about.html" class="simple-btn">READ MORE <i class="icon icon-arrow-right"></i></a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -157,9 +151,6 @@
                                         analytics, Python, Content marketing, app and web development. The interested people take up these interactive sessions
                                         and grow via experimenting with everything they learn.</p>
                                     </div><br>
-                                    <div class="btn-wraper">
-                                        <a href="about.html" class="simple-btn">READ MORE <i class="icon icon-arrow-right"></i></a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -187,9 +178,6 @@
                                         the form of Internships which can boost their CVs to another level. Simultaneously, the students also get to implement
                                         their knowledge in solving real life problems and gaining work experience.</p>
                                     </div><br>
-                                    <div class="btn-wraper">
-                                        <a href="about.html" class="simple-btn">READ MORE <i class="icon icon-arrow-right"></i></a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -211,9 +199,6 @@
                                         <p>We believe that we can increase the effectiveness and impact manifold when we have talented and motivated people
                                         working with us towards the same goal. Our CAMPUSPRENEUR Program is aimed at achieving the above goals.</p>
                                     </div><br>
-                                    <div class="btn-wraper">
-                                        <a href="about.html" class="simple-btn">READ MORE <i class="icon icon-arrow-right"></i></a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -235,9 +220,6 @@
                                         <p style="padding-right: 20px">Through the initiative of Women on Web, we aim to provide a platform to engage with women in the field of technology,
                                         raise them as a brand, launch an app, or change careers through connecting to Women Who Code in the global network.</p>
                                     </div><br>
-                                    <div class="btn-wraper">
-                                        <a href="about.html" class="simple-btn">READ MORE <i class="icon icon-arrow-right"></i></a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -246,7 +228,7 @@
             </div>
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
-        </div><br><br><br><br>
+        </div>
 </section><!-- end parallax service -->
 
 <!-- language switcher strart -->
@@ -424,5 +406,5 @@
 		<script src="assets/js/main.js"></script>		<!-- End js file -->
 	</body>
 
-<!-- Mirrored from html.xpeedstudio.com/agmycoo/parallax-service.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Oct 2018 14:25:01 GMT -->
+
 </html>
